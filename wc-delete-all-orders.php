@@ -8,8 +8,12 @@
  Author URI: https://github.com/rynaldos
  Version: 1.0
  License: GPLv3 or later License
- URI: http://www.gnu.org/licenses/gpl-3.0.html
+ License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
+
+ if ( ! defined( 'ABSPATH' ) ) {
+  exit; // Exit if accessed directly.
+}
 
 if (!class_exists('WooCommerce_Delete_all_orders')) {
   class WooCommerce_Delete_all_orders {
